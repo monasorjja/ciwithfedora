@@ -19,7 +19,7 @@ jobs:
 
       - name: Install Dependencies
         run: pip install -e .
-        working-directory: ../..
+        working-directory: /home/runner/work/ciwithfedora
 
       - name: Run Tests with Tox
         run: poetry run tox
