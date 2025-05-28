@@ -7,8 +7,6 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    defaults:
-      working-directory: /home/runner/work/ciwithfedora
 
     steps:
       - name: Set up Python
@@ -21,6 +19,7 @@ jobs:
 
       - name: Install Dependencies
         run: pip install -e .
+        working-directory: ../..
 
       - name: Run Tests with Tox
         run: poetry run tox
