@@ -18,7 +18,7 @@ jobs:
         run: pip install poetry
 
       - name: Install Dependencies
-        run: pip install -e /home/runner/work/ciwithfedora/pyproject.toml
+        run: pip install pytest tox 
 
       - name: Run Tests with Tox
         run: poetry run tox
