@@ -18,7 +18,8 @@ jobs:
         run: pip install poetry
 
       - name: Install Dependencies
-        run: poetry install . 
+        run: poetry install 
+        working-directory: .
 
       - name: Run Tests with Tox
         run: tox
