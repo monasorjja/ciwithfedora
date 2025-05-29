@@ -18,7 +18,7 @@ jobs:
         run: pip install poetry
 
       - name: Install Dependencies
-        run: python -m pip install -r requirements.txt 
+        run: python -m pip install -r /home/runner/work/ciwithfedora/requirements.txt 
         working-directory: /home/runner/work/ciwithfedora 
 
       - name: Run Tests with Tox
