@@ -6,7 +6,7 @@ authors = ["Monasor J.J Atairu"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.13"
+python = "^3.11"
 
 
 [tool.poetry.group.dev.dependencies]
