@@ -21,4 +21,4 @@ jobs:
         run: pip install pytest tox 
 
       - name: Run Tests with Tox
-        run: poetry run tox
+        run: tox
