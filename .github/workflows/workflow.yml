@@ -19,7 +19,7 @@ jobs:
 
       - name: Install Dependencies
         run: poetry install 
-        working-directory: /home/runner/work 
+        working-directory: /home/runner/work/ciwithfedora 
 
       - name: Run Tests with Tox
         run: tox
