@@ -6,7 +6,7 @@ on:
 
 jobs:
   test:
-    runs-on: fedora-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Set up Python
@@ -19,7 +19,7 @@ jobs:
 
       - name: Install Dependencies
         run: poetry install 
-        working-directory: .
+        working-directory: /home/ 
 
       - name: Run Tests with Tox
         run: tox
