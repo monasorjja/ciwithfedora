@@ -19,7 +19,7 @@ jobs:
 
       - name: Install Dependencies
         run: poetry install 
-        working-directory: /home/ 
+        working-directory: /home/runner/work 
 
       - name: Run Tests with Tox
         run: tox
