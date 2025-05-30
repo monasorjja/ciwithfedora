@@ -1,1 +1,1 @@
-GitHub Actions has no native Fedora support and dropped CentOS 7 in 2024. This repo shows how to use fedora-python/tox-github-action to test Python packages against Fedora in CI—keeping your builds compatible without manual work.
+GitHub Actions has no native Fedora support and dropped CentOS 7 in 2024.This repo demonstrates how to use fedora-python/tox-github-action to validate Python packages for Fedora compatibility in CI workflows—helping you maintain testing coverage for modern Fedora-based systems.
