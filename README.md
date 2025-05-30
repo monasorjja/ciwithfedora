@@ -1,1 +1,1 @@
-In this article, you will learn how to set up GitHub Actions to manage continuous integration for your Python projects. You will also learn how to test your code on different versions of Python.
+Write a concise introduction for my github repo using this context "Github Actions does not support Fedora. This repo demonstrates how to use https://github.com/fedora-python/tox-github-action to validate your packages for Fedora. It stopped Centos 7 support in 2024"
