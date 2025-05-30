@@ -16,7 +16,7 @@ jobs:
       uses: fedora-python/tox-github-action@main
       with:
         tox_env: py313
-        workdir: "ciwithfedora/"
+        dnff_install: poetry
 
     runs-on: ubuntu-latest
 
