@@ -12,6 +12,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Set up Python
 
+      - uses: fedora-python/tox-github-action
         with:
           tox_env: py312
 
