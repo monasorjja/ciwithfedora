@@ -5,14 +5,16 @@ on:
     branches: [ dev ]
 
 jobs:
-  test:
+  tox_test:
+    name: Tox test
+
     steps:
-      - uses: actions/checkout@v2
-      - name: Run tox tests
+    - uses: actions/checkout@v2
+    - name: Run tox tests
 
-      - uses: fedora-python/tox-github-action@main
-        with:
-          tox_env: py313
+    - uses: fedora-python/tox-github-action@main
+      with:
+        tox_env: py313
 
-      runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
