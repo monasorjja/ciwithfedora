@@ -6,13 +6,13 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v2
-      - name: Set up Python
+      - name: Run tox tests
 
-      - uses: fedora-python/tox-github-action
+      - uses: fedora-python/tox-github-action@main
         with:
-          tox_env: py312
+          tox_env: py313
+
+      runs-on: ubuntu-latest
 
