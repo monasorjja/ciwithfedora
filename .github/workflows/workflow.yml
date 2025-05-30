@@ -6,7 +6,7 @@ on:
 
 jobs:
   tox_test:
-    name: Tox test
+    name: Python CI on Fedora with GitHub Actions.
 
     steps:
     - uses: actions/checkout@v4
