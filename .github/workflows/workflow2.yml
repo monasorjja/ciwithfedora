@@ -15,7 +15,7 @@ jobs:
 
       uses: fedora-python/tox-github-action@main
       with:
-        tox_env: py313
+        tox_env: py313,py312
         dnf_install: poetry
 
     runs-on: ubuntu-latest
