@@ -1,1 +1,1 @@
-Write a concise introduction for my github repo using this context "Github Actions does not support Fedora. This repo demonstrates how to use https://github.com/fedora-python/tox-github-action to validate your packages for Fedora. It stopped Centos 7 support in 2024"
+GitHub Actions has no native Fedora support and dropped CentOS 7 in 2024. This repo shows how to use fedora-python/tox-github-action to test Python packages against Fedora in CI—keeping your builds compatible without manual work.
