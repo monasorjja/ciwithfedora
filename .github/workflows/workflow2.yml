@@ -11,8 +11,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Run tox tests
+      id: test
 
-    - uses: fedora-python/tox-github-action@main
+      uses: fedora-python/tox-github-action@main
       with:
         tox_env: py313
 
