@@ -16,11 +16,3 @@ jobs:
         with:
           tox_env: py312
 
-      - name: Install Poetry
-        run: pip install poetry
-
-      - name: Install Dependencies
-        run: poetry install 
-
-      - name: Run Tests with Tox
-        run: poetry run tox
